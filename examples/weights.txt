@@ -1,0 +1,5 @@
+# TICKER amount: weights or money held, normalized to sum to one
+EQTY 6000
+BOND 2000
+GOLD 1000
+SMCP 1000
