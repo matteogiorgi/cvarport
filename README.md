@@ -1,4 +1,4 @@
-# `cvarport`: a tail-risk calculator for a small portfolio
+# CVaRPort: a tail-risk calculator for a small portfolio
 
 `cvarport` takes the historical prices of a few ETFs and the amounts you hold, and answers one question: *is my portfolio efficient, and how much tail risk could I remove without giving up expected return?* It measures the portfolio you have (mean, volatility, Sharpe ratio, historical VaR and CVaR, and how much of each risk every asset carries), then compares it with the best portfolios that can be built from the same assets under the same constraints, on two efficient frontiers: Markowitz's mean-variance one and the mean-CVaR one of Rockafellar and Uryasev.
 
